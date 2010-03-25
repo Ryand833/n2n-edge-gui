@@ -494,7 +494,7 @@ INT_PTR CALLBACK dialog_proc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lPar
     case WM_SYSCOMMAND:
       if (wParam == IDM_ABOUT)
       {
-        MessageBox(hwndDlg, L"N2N Edge GUI $Rev: 5 $", L"About N2N Edge GUI", MB_OK | MB_ICONINFORMATION);
+        MessageBox(hwndDlg, L"N2N Edge GUI $Rev$", L"About N2N Edge GUI", MB_OK | MB_ICONINFORMATION);
         break;
       }
       return FALSE;
