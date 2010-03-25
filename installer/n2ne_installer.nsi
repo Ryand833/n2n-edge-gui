@@ -9,7 +9,7 @@ OutFile "n2ne_gui_install.exe"
 
 RequestExecutionLevel admin
 
-BrandingText "N2N Edge GUI Installer $$Rev: 5 $$"
+BrandingText "N2N Edge GUI Installer $$Rev$$"
 
 InstallDir "$PROGRAMFILES\N2N Edge GUI"
 InstallDirRegKey HKLM "Software\N2N Edge GUI" "Path"
